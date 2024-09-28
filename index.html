@@ -1,0 +1,576 @@
+<html lang="en"></html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oasis - Modern Contemporary Furniture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <header>
+        <div class="container">
+            <div class="logo">Oasis</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+            <div class="nav-buttons">
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+                <button id="getStarted">Get Started →</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h2>FURNITURE STORE</h2>
+        <br>
+        <h1>Discover the Artistry of Modern Contemporary Furniture</h1>
+        
+        <p>Experience the elegance and functionality of cutting-edge design where luxury meets innovation in every piece
+            for ultimate relaxation.</p>
+        <img src="image.png" alt="Sofa" class="hero-image">
+    </section>
+
+    <!--categories--> 
+
+
+    <div class="container1">
+        <h2>Categories</h2>
+        <div class="grid">
+            <!-- Sitting Room Section -->
+            <div class="category sitting-room">
+                
+                <img src="sitting-room.png" alt="Sitting Room" class="chair1">
+          
+                <div class="content1">
+                    <h3 id="heading1">Sitting Room</h3>
+                    <a href="#" class="button">Shop Now →</a>
+                </div>
+            </div>
+
+            <!-- Accessories Section -->
+            <div class="category accessories">
+                <img src="accessories.png" alt="Accessories" class="chair2">
+                <div class="content2">
+                    <h3 id="heading2">Accessories</h3>
+                    <a href="#" class="button">Shop Now →</a>
+                </div>
+            </div>
+
+            <!-- Kitchen Section -->
+            <div class="category kitchen">
+                <img src="kitchen.png" alt="Kitchen" class="chair3">
+                <div class="content3">
+                    <h3 id="heading3">Kitchen</h3>
+                    <a href="#" class="button">Shop Now →</a>
+                </div>
+            </div>
+
+            <!-- Bedroom Section -->
+            <div class="category bedroom">
+                <img src="bedroom.png" alt="Bedroom" class="chair4">
+                <div class="content4">
+                    <h3 id="heading4">Bedroom</h3>
+                    <a href="#" class="button">Shop Now →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+
+    <!--Design inspiration -->
+    
+    <div class="container2">
+        <h1 id="head-design">Design inspiration and modern home ideas</h1>
+        <br><br>
+        <div class="filter-bar">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Bedroom</button>
+            <button class="filter-btn">Living room</button>
+            <button class="filter-btn">Kitchen</button>
+            <button class="filter-btn">Workspace</button>
+            <button class="filter-btn">Outdoor</button>
+            <button class="filter-btn">Bathroom</button>
+            <button class="filter-btn">Home office</button>
+            <button class="filter-btn">Dining</button>
+        </div>
+    </div>
+    <br>
+
+    <div class="gallery">
+         <div class="gallery-image"> 
+            <img src="design1.png" alt="Living Room" >
+            <img src="design4.png" alt="Workspace" >
+            <img src="design7.png" alt="Bathroom" >
+        </div>
+
+        
+         <div class="gallery-image">
+            <img src="design2.png" alt="Dining" >
+            <img src="design5.png" alt="Kitchen" >
+            <img src="design8.png" alt="Home office" >
+        </div>
+
+
+         <div class="gallery-image">
+            <img src="design3.png" alt="Bedroom" >
+            <img src="design6.png" alt="Outdoor" >
+            <img src="design9.png" alt="Living room" >
+        </div>
+    </div>
+    <br><br>
+
+    <div class="select">
+        <div class="progress-info">
+            <p>Showing 9 of 16 results</p>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <button class="show-more-btn">Show more</button>
+    </div>
+
+    <br><br><br>
+
+    <!--products-->
+
+    <div class="container3">
+        <div class="header">
+            <h1 id="top">Top Products</h1>
+            <div class="sort">
+                <select  id="sort">
+                    <option value="recent">Most Recent</option>
+                    <option value="priceLowHigh">Price: Low to High</option>
+                    <option value="priceHighLow">Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="part">
+         <!--card start-->  <!--1-->
+            <div class="product-card">
+                <img src="faux.png" alt="Faux Leather Sofa" class="product-image">
+                <div class="product-info">
+                    <h2>Faux Leather Sofa</h2>
+                    <p class="price">$129</p>
+                    <div class="color-options">
+                        <span class="color brown"></span>
+                        <span class="color grey"></span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+          <!--add to cart-->   <!--2-->
+            <div class="product-card">
+                <img src="boucle.png" alt="Boucle Accent Chair" class="product-image">
+                <div class="product-info">
+                    <h2>Boucle Accent Chair</h2>
+                    <p class="price">$44</p>
+                    <div class="color-options">
+                        <span class="color teal"></span>
+                        <span class="color beige"></span>
+                        <span class="color white"></span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <!--beign-->   <!--3-->
+            <div class="product-card">
+                <img src="ceramic.png" alt="Ceramic Flower Vase" class="product-image">
+                <div class="product-info">
+                    <h2>Ceramic Flower Vase</h2>
+                    <p class="price">$8</p>
+                    <div class="color-option">
+                        <span class="color green"></span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+             <!--4-->
+
+            <div class="product-card">
+                <img src="mordern fabrix.png" alt="Modern Fabric Accent Chair" class="product-image">
+                <div class="product-info">
+                    <h2>Modern Fabric Accent Chair</h2>
+                    <p class="price">$38</p>
+                    <div class="color-options">
+                        <span class="color teal"></span>
+                        <span class="color maroon"></span>
+                        
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+             <!--5-->
+
+            <div class="product-card">
+                <img src="wooden accent.png" alt="Wooden Accent Chair" class="product-image">
+                <div class="product-info">
+                    <h2>Wooden Accent Chair</h2>
+                    <p class="price">$24</p>
+                    <div class="color-options">
+                        <span class="color brown"></span>
+                        <span class="color beige"></span>
+                        
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+             <!--6-->
+
+            <div class="product-card">
+                <img src="mordern ceramic.png" alt="Modern Cermic Lamp" class="product-image">
+                <div class="product-info">
+                    <h2>Modern Cermic Lamp</h2>
+                    <p class="price">$12</p>
+                    <div class="color-options">
+                        <span class="color brown"></span>
+                        
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+             <!--7-->
+
+            <div class="product-card">
+                <img src="aurla.png" alt="Aurla Fabric Accent Chair" class="product-image">
+                <div class="product-info">
+                    <h2>Aurla Fabric Accent Chair</h2>
+                    <p class="price">$55</p>
+                    <div class="color-options">
+                        <span class="color white"></span>
+                       
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+             <!--8-->
+
+            <div class="product-card">
+                <img src="natural wooden.png" alt="Natural Wood Table" class="product-image">
+                <div class="product-info">
+                    <h2>Natural Wood Table</h2>
+                    <p class="price">$102</p>
+                    <div class="color-options">
+                        <span class="color brown"></span>
+                        
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+             <!--9-->
+
+            <div class="product-card">
+                <img src="loveseat.png" alt="Loveseat Compact 2" class="product-image">
+                <div class="product-info">
+                    <h2>Loveseat Compact 2</h2>
+                    <p class="price">$89</p>
+                    <div class="color-options">
+                        <span class="color black"></span>
+                        <span class="color brown"></span>
+                      
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+             <!--10-->
+
+            <div class="product-card">
+                <img src="mordern unpholstered.png" alt="Modern Upholstered" class="product-image">
+                <div class="product-info">
+                    <h2>Modern Upholstered</h2>
+                    <p class="price">$24</p>
+                    <div class="color-options">
+                        <span class="color black"></span>
+                        <span class="color beige"></span>
+                        
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+             <!--11-->
+
+            <div class="product-card">
+                <img src="utopia.png" alt="Utopia Plant Pots" class="product-image">
+                <div class="product-info">
+                    <h2>Utopia Plant Pots</h2>
+                    <p class="price">$8</p>
+                    <div class="color-options">
+                        <span class="color beige"></span>
+                       
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+             <!--12-->
+
+            <div class="product-card">
+                <img src="roundhill.png" alt="Roundhill Fabric Accent Chair" class="product-image">
+                <div class="product-info">
+                    <h2>Roundhill Fabric Accent Chair</h2>
+                    <p class="price">$30</p>
+                    <div class="color-options">
+                        <span class="color teal"></span>
+                        <span class="color brown"></span>
+                        
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+             <!--13-->
+
+            <div class="product-card">
+                <img src="round terra.png" alt="Round Terra Marble" class="product-image">
+                <div class="product-info">
+                    <h2>Round Terra Marble</h2>
+                    <p class="price">$34</p>
+                    <div class="color-options">
+                        <span class="color brown"></span>
+                        <span class="color brown"></span>
+                        
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+             <!--14-->
+
+            <div class="product-card">
+                <img src="ceramic rustic.png" alt="Cermic Rustic Vasel" class="product-image">
+                <div class="product-info">
+                    <h2>Cermic Rustic Vasel</h2>
+                    <p class="price">$11</p>
+                    <div class="color-options">
+                        <span class="color grey"></span>
+                       
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+             <!--15-->
+
+            <div class="product-card">
+                <img src="metro luxe.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2>Metro Luxe Duo Sofa</h2>
+                    <p class="price">$120</p>
+                    <div class="color-options">
+                        
+                        <span class="color black"></span>
+                        <span class="color black"></span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+             <!--16-->
+
+            <div class="product-card">
+                <img src="kitchen bar.png" alt="" class="product-image">
+                <div class="product-info">
+                    <h2>Kitchen Bar Stool</h2>
+                    <p class="price">$19</p>
+                    <div class="color-options">
+                        
+                        <span class="color beige"></span>
+                        <span class="color black"></span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+             <!--17-->
+
+            <div class="product-card">
+                <img src="luxe mordern.png" alt="Luxe Modern Armchair" class="product-image">
+                <div class="product-info">
+                    <h2>Luxe Modern Armchair</h2>
+                    <p class="price">$60</p>
+                    <div class="color-options">
+                        <span class="color black"></span>
+                        <span class="color brown"></span>
+                        
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+             <!--18-->
+
+            <div class="product-card">
+                <img src="round fluted.png" alt="Round Fluted Accent" class="product-image">
+                <div class="product-info">
+                    <h2>Round Fluted Accent...</h2>
+                    <p class="price">$90</p>
+                    <div class="color-options">
+                        
+                        <span class="color black"></span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+             <!--19-->
+
+            <div class="product-card">
+                <img src="round terra marble.png" alt="Round Terra Marble" class="product-image">
+                <div class="product-info">
+                    <h2>Round Terra Marble S...</h2>
+                    <p class="price">$11</p>
+                    <div class="color-options">
+                        <span class="color brown"></span>
+                        <span class="color grey"></span>
+                        
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+             <!--20-->
+
+            <div class="product-card">
+                <img src="luna mordern.png" alt="Luna Modern Round" class="product-image">
+                <div class="product-info">
+                    <h2>Luna Modern Round...</h2>
+                    <p class="price">$38</p>
+                    <div class="color-options">
+                        <span class="color brown"></span>
+                        <span class="color brown"></span>
+                        
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+    
+        </div>
+        <br><br><br>
+
+        <div class="select">
+            <div class="progress-info">
+                <p>Showing 20 of 48 results</p>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+            <button class="show-more-btn">Show more</button>
+        </div>
+    </div>
+<br><br><br>
+
+
+<!--faq section-->
+
+
+
+<div class="faq-container">
+    <h1 id="headline">We have got the answers to your questions</h1>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <span class="faq-number">01</span>
+            <span class="faq-text">What types of furniture do you offer?</span>
+            <span class="faq-icon">&#x25BC;</span>
+        </div>
+        <div class="faq-answer">
+            <p>We offer a wide range of contemporary furniture including sofas, chairs, tables, beds, storage
+                solutions, and outdoor furniture. Our collection is designed to suit modern aesthetics and
+                functional needs.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <span class="faq-number">02</span>
+            <span class="faq-text">Do you offer international shipping?</span>
+            <span class="faq-icon">&#x25BC;</span>
+        </div>
+        <div class="faq-answer">
+            <p>Yes, we offer international shipping to selected countries. Shipping costs will depend on your
+                location and the size of the items ordered.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <span class="faq-number">03</span>
+            <span class="faq-text">What is your return policy?</span>
+            <span class="faq-icon">&#x25BC;</span>
+        </div>
+        <div class="faq-answer">
+            <p>Our return policy allows you to return items within 30 days of receipt. The item must be in its
+                original condition, and shipping costs for returns are the responsibility of the customer.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleFaq(this)">
+            <span class="faq-number">04</span>
+            <span class="faq-text">What payment methods do you accept?</span>
+            <span class="faq-icon">&#x25BC;</span>
+        </div>
+        <div class="faq-answer">
+            <p>We accept major credit cards (Visa, MasterCard, American Express), PayPal, and financing options
+                through Affirm. All transactions are secure and encrypted.</p>
+        </div>
+    </div>
+</div>
+
+<!--footer section-->
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-left">
+            <h2>Oasis</h2>
+        </div>
+        <div class="footer-center">
+            <p><strong>Contact Us</strong></p>
+            <p>+1 999 888-76-54</p>
+            <p><a href="mailto:hello@logoipsum.com">hello@logoipsum.com</a></p>
+        </div>
+        <div class="footer-right">
+            <p><strong>Address</strong></p>
+            <p>2118 Thornridge Cir. Syracuse, Connecticut 35624</p>
+            <p><strong>Opening Hours</strong></p>
+            <p>9am—6pm</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <nav>
+            <ul>
+                <li><a href="#">Home /</a></li>
+                <li><a href="#">Blog /</a></li>
+                <li><a href="#">Sale /</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+        <div class="copyright">
+            <p>&copy; 2023 — Copyright</p>
+        </div>
+        <div class="back-to-top" id="back-to-top">
+            <a href="#top">&#8679;</a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
